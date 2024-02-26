@@ -36,6 +36,7 @@ button {
     width: 160px;
     padding: 10px 32px;
     border-radius: 12px;
+    border-style: solid;
 }
 
 .hero-img {
@@ -169,7 +170,6 @@ ul {
 #action-button {
     border-color: #e5e7eb;
     border-width: 4px;
-    border-style: solid;
     display: flex;
     align-items: center;
     height: 48px;
@@ -184,4 +184,14 @@ ul {
 .action-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.footer {
+    font-size: 32px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
